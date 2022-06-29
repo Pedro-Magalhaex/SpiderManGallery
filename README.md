@@ -1,1 +1,1 @@
-(https://pedro-magalhaex.github.io/SpiderManGallery/)
+https://pedro-magalhaex.github.io/SpiderManGallery/
