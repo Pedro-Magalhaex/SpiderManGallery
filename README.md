@@ -1,2 +1,1 @@
-# SpiderManGallery
- Site de galeria de fotos do Homem Aranha.
+https://pedro-magalhaex.github.io/SpiderManGallery/
