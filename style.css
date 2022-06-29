@@ -1,0 +1,370 @@
+/*GERAL_________________________________________*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;    
+}
+
+body{
+    min-width: 600px;
+}
+
+.box21, .box31, .box41, .box511{
+    filter: grayscale(100%);
+}
+
+/*HEADER________________________________________*/
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #2b3784;
+}
+
+.hd1{
+    width: 43%;
+    background-color: #b11313;
+}
+
+#img1{
+    width: 120px;
+}
+
+.hd2{
+    width: 57%;
+    display: flex;
+    justify-content: right;
+    gap: 5%;
+    z-index: 2;
+    padding-left: 200px;
+    padding-right: 2%;
+}
+
+#hd21{
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#hd21:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*COVER_________________________________________*/
+
+.box1{
+    display: flex;
+}
+
+.box11{
+    width: 43%;
+    z-index: 1;
+    background-image: linear-gradient(#b11313, #420202);
+}
+
+#img2{
+    margin: -100px 0px -15% -50px;
+    width: 190%;
+}
+
+.box12{
+    display: flex;
+    width: 57%;
+    background-image: linear-gradient(#2b3784, #0c102b);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1{
+    color: white;
+    margin-right: -25%;
+    text-align: center;
+    font-size: calc(1em + 5vw);
+    width: 80%;
+    transform: rotate(90deg)
+}
+
+/*Títulos_______________________________________*/
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.main, .voltar{
+    width: 50%;
+    padding: 1%;
+    margin-bottom: -1%;
+}
+
+h3{
+    color: #df1f2d;
+    font-size: 250%;
+}
+
+#voltar{
+    text-align: right;
+    color: #447bbea9;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+/*BOX 1_________________________________________*/
+
+/*GERAL*/
+.box21{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*QUADRADO 1 - CENTRAL*/
+.box211{
+    width: 50%;
+    height: calc(1em + 50vw);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 0.5% 0.5% 0.75%;
+}
+
+/*QUADRADO 1 - DIVISÕES*/
+.box2111, .box2112, .box2113, .box2114{
+    margin: 1%;
+    width: 35%;
+    flex-grow: 1;
+}
+
+.box2111{
+    background-image: url(https://sm.ign.com/ign_pt/news/s/spider-man/spider-man-no-way-home-swings-to-a-record-breaking-253-milli_cbgj.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2112{
+    background-image: url(https://hipertextual.com/wp-content/uploads/2021/12/spider-man-no-way-home-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2113{
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2021/03/como-jogar-marvel-s-spider-man.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2114{
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/87/2018/04/04/spider-man-no-ps4-1522858511988_v2_4x3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*QUADRADO 2 - CENTRAL*/
+.box212{
+    width: 50%;
+    height: calc(1em + 50vw);
+    padding: 1.5% 1.25% 1% 1%;
+}
+
+.box2121{
+    background-image: url(https://sm.ign.com/ign_br/screenshot/default/3735377-miles-morales_vj7j.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*QUADRADO 3 - CENTRAL*/
+.box213{
+    width: 50%;
+    height: calc(1em + 50vw);
+    padding: 1% 1% 1.5% 1.25%;
+}
+
+.box2131{
+    background-image: url(https://uploads.emaisgoias.com.br/2021/12/c95d4401-marvel-homem-aranha.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*QUADRADO 4 - CENTRAL*/
+.box214{
+    width: 50%;
+    height: calc(1em + 50vw);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5% 0.75% 1% 0.5%;
+}
+
+/*QUADRADO 4 - DIVISÕES*/
+.box2141, .box2142, .box2143, .box2144{
+    margin: 1%;
+    width: 35%;
+    flex-grow: 1;
+}
+
+.box2141{
+    background-image: url(https://br.atsit.in/wp-content/uploads/2021/06/o-video-do-conceito-do-homem-aranha-4-revela-uma-batalha-de-superviloes-da-sequencia-desfeita-de-homem-aranha-4.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.box2142{
+    background-image: url(https://www.palomitademaiz.net/wp-content/uploads/2021/12/SpiderMan-no-way-home-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2143{
+    background-image: url(https://disneyplusbrasil.com.br/wp-content/uploads/2021/02/Spider-man-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2144{
+    background-image: url(https://static.independent.co.uk/2021/09/09/10/newFile-1.jpg?width=1200);
+    background-size: cover;
+    background-position: center;
+}
+
+/*BOX 2_________________________________________*/
+
+/*GERAL*/
+.box31{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box311, .box312, .box313, .box314, .box315, .box316{
+    width: 30%;
+    height: calc(1em + 15vw);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+.teste{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CITAÇÕES*/
+.box311{
+    background-image: url(https://cdn.wallpapersafari.com/2/93/Hdyv0T.jpg);
+    background-size: cover;
+}
+
+.box312{
+    background-image: url(https://www.myfreewalls.com/public/uploads/preview/4k-black-red-spiderman-wallpaper-116240140956olrkebt6q.jpg);
+    background-size: cover;
+}
+
+.box313{
+    background-image: url(https://files.wallpaperpass.com/2019/09/spider%20verse%20wallpaper%20126%20-%203554x1999.jpg);
+    background-size: cover;
+}
+
+.box314{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCgQWPJRKA9IPGVsJaERUpWu0g6Ips3C0r6ETJvgOZwMEB0ytsITO8uiLuOLSfcGRwTIs&usqp=CAU);
+    background-size: cover;
+}
+
+.box315{
+    background-image: url(https://images.hdqwalls.com/wallpapers/spiderman-miles-morales-art-0m.jpg);
+    background-size: cover;
+}
+
+.box316{
+    background-image: url(https://w0.peakpx.com/wallpaper/364/72/HD-wallpaper-spider-man-marvel-comics-miles-morales.jpg);
+    background-size: cover;
+}
+
+/*BOX 4_________________________________________*/
+
+/*GERAL*/
+.box41{
+    display: grid;
+    height: 550px;
+    grid-template-rows: 33%;
+    gap: 1%;
+    padding: 1%;
+}
+
+/*DIVISÕES*/
+.box411{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(https://www.cinemascomics.com/wp-content/uploads/2021/02/Spider-Man-Un-nuevo-universo-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box412{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-image: url(http://www.zbrushcentral.com/uploads/default/original/4X/4/7/2/472e2da105bd51283677382cc3c5fbaed344d798.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box413{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    background-image: url(https://pbs.twimg.com/media/DfUlOXUWkAAIdY6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box414{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/036/650/275/large/ryan-kirkpatrick-untitled-artwork-5.jpg?1618253482);
+    background-size: cover;
+    background-position: center;
+}
+
+.box415{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(https://as01.epimg.net/meristation/imagenes/2020/05/07/noticias/1588845847_770875_1588846198_portada_normal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box416{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    background-image: url(https://images7.alphacoders.com/104/1041617.jpg);
+    background-size: cover;
+    background-position: 0% 30%;
+}
+
+/*BOX 5_________________________________________*/
+
+/*GERAL*/
+.box51{
+    display: flex;
+    margin: 1%;
+}
+
+/*DIVISÕES*/
+.box511{
+    height: 409px;
+    background-image: url(https://i.pinimg.com/originals/78/90/32/789032ab0a710b1ee36b166a9542c245.jpg);
+    background-size: 250%;
+    width: 100px;
+}
+
+#vid{
+    max-width: 590px;
+}
+
